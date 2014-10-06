@@ -1,0 +1,125 @@
+$dark-blue-color: #232D39
+$blue-color: #359BC1
+$font-color: #4A4A4A
+$light-bg-color: #FAFAFA
+
+
+@font-face
+  font-family: 'Roboto-Light'
+  src: url('/fonts/Roboto-Light.ttf') format("truetype")
+  font-weight: normal
+  font-style: normal
+
+@font-face
+  font-family: 'Roboto-Regular'
+  src: url('/fonts/Roboto-Regular.ttf') format("truetype")
+  font-weight: normal
+  font-style: normal
+
+@font-face
+  font-family: 'Roboto-Medium'
+  src: url('/fonts/Roboto-Medium.ttf') format("truetype")
+  font-weight: normal
+  font-style: normal
+
+body
+  padding: 0px
+  margin: 0px
+  font-family: 'Roboto-Light', 'Helvetica', 'Arial', sans-serif
+  min-width: 1024px
+  color: #4A4A4A
+
+.wrapper
+  width: 940px
+  margin: 0px auto
+
+.clearfix
+  &:after
+    clear: both
+    content: "."
+    display: block
+    height: 0
+    clear: both
+    visibility: hidden
+
+.relative
+  position: relative
+
+.inheritance-height
+  height: 100%
+
+
+section
+  padding: 50px 0
+
+  &.striped
+    background: #D8E0EB
+
+  .title
+    height: 50px
+    line-height: 50px
+    font-size: 24px
+    font-family: "Roboto-Light"
+    margin-bottom: 50px
+    color: #4A4A4A
+    text-align: center
+
+
+strong
+  font-family: 'Roboto-Medium'
+
+
+
+
+
+//@import url(http://fonts.googleapis.com/css?family=PT+Sans&subset=latin,cyrillic)
+.price-rouble:after
+  font-family: "PT Sans"
+  content: " \20B7"
+
+
+
+
+.triggers
+  margin-top: 50px
+  .trigger
+    float: left
+    width: 220px
+    font-size: 14px
+    line-height: 22px
+    margin-right: 20px
+
+    &:nth-child(4n)
+      margin-right: 0px
+
+    .name
+      font-family: 'Roboto-Regular'
+      font-size: 18px
+      color: $blue-color
+      margin-bottom: 20px
+
+
+.clients
+  margin-top: 50px
+  .client
+    float: left
+    width: 300px
+    margin-right: 20px
+    margin-bottom: 50px
+
+    &:nth-child(3n)
+      margin-right: 0px
+
+
+    img
+      display: block
+      margin: 0px auto
+
+
+
+#map
+  margin-top: 50px
+  width: 100%
+  height: 500px
+
+

@@ -1,0 +1,11 @@
+%html
+  %head
+    = css :application
+    %script{src: 'http://api-maps.yandex.ru/2.1/?lang=ru_RU', type: 'text/javascript'}
+    = js :application
+    %title
+      Производство и продажа упаковок, коробок и гофротары
+  %body
+    = yield
+    -#= haml :modal
+    -#= erb :metrika
