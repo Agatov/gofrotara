@@ -1,8 +1,8 @@
 # Bundler tasks
 require 'bundler/capistrano'
 
-set :application, "retto"
-set :repository,  "git@github.com:Agatov/retto"
+set :application, "gofrotara"
+set :repository,  "git@github.com:Agatov/gofrotara"
 
 set :scm, :git
 
